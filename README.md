@@ -1,29 +1,26 @@
 <div align="center">
-  <h1 style="text-align:center">⚙️Create Next.js Component 0.1.0</h1>
+  <h1 style="text-align:center">⚙️ Create Next.js Component 0.1.0</h1>
 </div>
 
 <div align="center">
   <p style="text-align:center">
-  Typescript 기반의 Next.js에서 Atomic design으로 컴포넌트를 관리하는 프로젝트를 위한
-  Component 생성 CLI 입니다.
-</p>
+    Component Generation CLI for managing Next.js components with TypeScript-based Atomic design.
+  </p>
 </div>
 
 ---
 
-<!-- ##### ❗️ 해당 프로젝트는 Next.js >= 13 이상의 app router를 target으로 작성되었습니다. -->
+## ⚠️ CAUTION (before using CLI)
 
-## ⚠️ CAUTION(before using CLI)
+- This project is designed to target TypeScript version 5 or higher.
 
-##### - 해당 프로젝트는 typescript >= 5 이상의 프로젝트를 target으로 작성되었습니다.
-
-##### - `components`폴더는 `src` 아래 위치해야합니다.
+- The `components` folder should be located under the `src` directory.
 
 ---
 
 ## INSTALL
 
-1.Cloning CLI project
+1. Clone the CLI project:
 
 ```
 git clone https://github.com/gaenglovesdev/create-next-component.git
@@ -42,6 +39,8 @@ npm i -g
 ```
 
 ## 📃 USAGE
+
+Execute the command at the root of the project.
 
 ```
 cnc -co -a Button
@@ -66,14 +65,15 @@ cnc --component --atom Button
 
 ## RESULT
 
-- flag에 따라 `src/component/{target}` 폴더 생성 및 `src/component/{target}/index.tsx` 파일이 생성됩니다.
-- 해당 target 폴더의 barrel파일에 추가된 컴포넌트의 export 구문을 추가합니다.
+- Depending on the chosen flag, a `src/component/{target_directory}/{component_directory}` folder will be created, along with an `src/component/{target}/{component_directory}/index.tsx` file.
+- The export statement of the generated component will be added to the barrel file in the respective target folder.
 
 ### 📌 TODO
 
-- [ ] npm 배포
-- [ ] global hook 및 component hook 생성
-- [ ] user의 styling 라이브러리에 따른 style 작성파일 생성(module.css, scss, styled-component... and so on)
-- [ ] app router 생성
+- [ ] NPM distribution
+- [ ] Creating a Component Directory based on Atomic Design(with barrel file)
+- [ ] Create global hooks and component hooks
+- [ ] Generate styling files based on the user's preferred styling library (module.css, scss, styled-components, etc.)
+- [ ] Create app router
 
-#### Copyright 2023 . gaenglovesdev All rights reserved
+#### Copyright 2023. All rights reserved by gaenglovesdev.
