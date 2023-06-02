@@ -1,0 +1,38 @@
+{
+  "name": "create-next-component",
+  "version": "0.1.0",
+  "description": "Create a new component for Next.js",
+  "keywords": [
+    "next",
+    "nextjs",
+    "react",
+    "component",
+    "create",
+    "new",
+    "component",
+    "atomic",
+    "atomic design",
+    "atom",
+    "molecule",
+    "organism",
+    "template",
+    "page"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaenglovesdev/create-next-component.git"
+  },
+  "author": "gaenglovesdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaenglovesdev/create-next-component/issues"
+  },
+  "homepage": "https://github.com/gaenglovesdev/create-next-component#readme",
+  "bin" : {
+    "cnc" : "./index.js"
+  }
+}
