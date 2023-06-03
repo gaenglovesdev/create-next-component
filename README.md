@@ -1,5 +1,5 @@
 <div align="center">
-  <h1 style="text-align:center">⚙️ Create Next.js Component 0.1.0</h1>
+  <h1 style="text-align:center">⚙️ Create Next.js Component CLI 0.1.0</h1>
 </div>
 
 <div align="center">
@@ -23,13 +23,13 @@
 1. Clone the CLI project:
 
 ```
-git clone https://github.com/gaenglovesdev/create-next-component.git
+git clone https://github.com/gaenglovesdev/create-next-component-cli.git
 ```
 
 2.Move to directory
 
 ```
-cd create-next-component
+cd create-next-component-cli
 ```
 
 3.Add package globally
